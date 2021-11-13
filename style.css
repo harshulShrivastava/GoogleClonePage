@@ -1,0 +1,168 @@
+html,body{
+    margin: 0;
+    height: 100%;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #1f2020;
+}
+
+#nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    padding-right: 30px;
+}
+#Google_App_Icon{
+    width: 30px;
+    padding-right: 20px;
+}
+#profile_picture{
+   
+    border-radius:50px;
+    width:30px;
+    height: 30px;
+}
+#nav a{
+    margin-right: 20px;
+    font-size: x-large;
+}
+
+#nav a.topImage {
+width: 20px;
+height:20px;
+background: red;
+border-radius: 90px;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#searchBar:hover{
+    box-shadow: 0 0 10px 2px black;
+}
+#middle
+{
+flex-grow: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+#logo
+{
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+#searchBarContainer{
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+ #searchVoiceIcon{
+    position:absolute ;
+    top: 0;
+    height: 100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#searchIcon{
+    position:absolute;
+    top: 0;
+    height: 100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#search{
+    height:"20px";
+     width:"20px";
+     padding-left:20px;
+}
+#searchIcon{
+    left:0;
+}
+#searchVoiceIcon{
+    right: 0;
+    padding-right: 20px;
+}
+
+#searchBar
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    width: 700px;
+    outline: 0;
+    font-size:large ;
+    border-radius: 15px;
+    border: 2px solid rgb(145, 148, 140);
+}
+#buttons{
+    text-align:center;
+    
+}
+
+#buttons{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.buttons{
+    margin-right: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding:10px 30px;
+    background-color: rgb(182, 179, 175);
+    color: rgb(82, 77, 77);
+    border-radius: 3px;
+    cursor: pointer; 
+    outline: rgb(114, 112, 112);
+}
+.buttons:hover{
+    box-shadow: 0 0 2px 1px black; 
+}
+#links{
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+    font-size:medium;
+    display: flex;
+}
+#footer{
+ 
+    padding-top:50px ;
+    color: blanchedalmond;
+}
+#footerContent{
+    outline: black;
+    background-color: rgb(139, 136, 136);
+    padding:5px 11px;
+    font-size: medium;
+    border-bottom: 1px
+ solid #212327;
+    font-size: 25px;s
+    color: rgba(255,255,255,.54);
+}
+#footerLinks{
+   display: flex;
+   background-color: rgb(139, 136, 136);
+   font-size: medium;
+   padding:5px 11px;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   color: white !important;
+   
+}
+
